@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/fontawesome-all.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header id="header-container">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+
+          <div class="col-sm-6 columna">
+            <h1>Platzy Shop</h1>
+          </div>
+
+          <div class="col-sm-6 text-xs-right text-md-center text-lg-right columna">
+            <button class="navbar-toggler pull-md-right text-lg-right" data-toggle="collapse" data-target="#navMenu" id="toggleNav" style="display:none;">&#9776;</button>
+            <a href="" class="hidden-xs-down text-uppercase font-weight-bold pull-md-left" id="login">Login</a>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <!-- /Header -->
+
+
+    <!-- Nav -->
+
+    <div class="" id="menu-container">
+      <nav class="nav navbar-light" id="navMenu">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-xs-10 offset-xss-2 col-md-4 offset-md-0 columna">
+              <ul class="nav">
+                <li class="nav-item text-center"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item text-center active"><a href="catalogo.html" class="nav-link">Catologo</a></li>
+                <li class="nav-item text-center"><a href="" class="nav-link">Carrito</a></li>
+                <li class="nav-item text-center"><a href="" class="nav-link" id="loginLi" style="display:none;">Login</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-6 offset-md-2 columna" id="buscarNav">
+              <form>
+                <div class="input-group">
+                  <input type="text" name="" class="form-control" value="" placeholder="Encontro lo que buscaba?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-platzi" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="container hidden-sm-up" id="search-bar" style="display:none;">
+        <div class="row">
+          <div class="col-md">
+            <form>
+              <div class="input-group">
+                <input type="text" name="" class="form-control" value="" placeholder="Encontro lo que buscaba?">
+                <span class="input-group-btn">
+                  <button class="btn btn-platzi" type="button">
+                    <span class="hidden-sm-down">Buscar</span>
+                    <i class="fa fa-search hidden-md-up"></i>
+                  </button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /Nav -->
+
+    <!-- Breacrumb -->
+    <section id="breadcrumbs-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <nav class="breadcrumb">
+              <a href="catalogo.html" class="breadcrumb-item">PlatzyShop</a>
+              <a href="catalogo.html" class="breadcrumb-item">Catalogo</a>
+              <span class="breadcrumb-item active">Todos los productos</span>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- breadcrumb -->
+
+    <!-- Productos -->
+
+    <section id="productos-container">
+      <div class="container">
+        <div class="row">
+
+          <!-- Filtro -->
+          <div class="col-sm-12 col-md-3">
+            <div class="list-group filtros-toggle">
+              <a href="" class="list-group-item list-group-item-action navbar-toggler" id="filtrosToggle" data-toggle="collapse" data-target="#filtros-container">
+                <h5 class="list-group-item-heading">Filtros <i class="fa fa-chevron-down"></i></h5>
+              </a>
+            </div>
+            <div id="filtros-container" class="collapse navbar-toggleable-md">
+              <div class="list-group">
+
+                <a href="" class="list-group-item list-group-item-action active">
+                  <h5 class="list-group-item-heading">Categoria</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action">
+                  <h5 class="list-group-item-heading">Ropa</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action">
+                  <h5 class="list-group-item-heading">Tegnologia</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action">
+                  <h5 class="list-group-item-heading">Accesorios</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action">
+                  <h5 class="list-group-item-heading">Mascotas</h5>
+                </a>
+
+              </div>
+
+              <div class="list-group">
+
+                <a href="" class="list-group-item list-group-item-action active">
+                  <h5 class="list-group-item-heading">Sexo</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action">
+                  <span class="form-check">
+                    <label for="" class="form-check-label">
+                      <input type="checkbox" value="m" class="form-check-input">
+                      Femenino
+                    </label>
+                  </span>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action">
+                  <span class="form-check">
+                    <label for="" class="form-check-label">
+                      <input type="checkbox" value="m" class="form-check-input">
+                      Masculino
+                    </label>
+                  </span>
+                </a>
+
+              </div>
+
+              <div class="list-group">
+
+                <a href="" class="list-group-item list-group-item-action active">
+                  <h5 class="list-group-item-heading">Color</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action list-group-item-danger">
+                  <h5 class="list-group-item-heading">Rojo</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action list-group-item-warning">
+                  <h5 class="list-group-item-heading">Amarillo</h5>
+                </a>
+
+                <a href="" class="list-group-item list-group-item-action list-group-item-info">
+                  <h5 class="list-group-item-heading">Azul</h5>
+                </a>
+
+              </div>
+            </div>
+          </div>
+          <!-- /Filtro -->
+
+          <div class="col-sm-12 col-md-9 listadoProductos">
+            <div class="row">
+              <div class="col-sm-12 col-sm-6 col-lg-4">
+                <div class="card">
+                <img src="img/SeatCupra.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-block">
+                  <h4 class="card-title">Producto 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit ametit fugit, amet officia reprehenderit aut optio dolore.</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-sm-6 col-lg-4">
+                <div class="card">
+                <img src="img/SeatCupra.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-block">
+                  <h4 class="card-title">Producto 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit ametit fugit, amet officia reprehenderit aut optio dolore.</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-sm-6 col-lg-4">
+                <div class="card">
+                <img src="img/SeatCupra.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-block">
+                  <h4 class="card-title">Producto 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit ametit fugit, amet officia reprehenderit aut optio dolore.</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-sm-6 col-lg-4">
+                <div class="card">
+                <img src="img/SeatCupra.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-block">
+                  <h4 class="card-title">Producto 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit ametit fugit, amet officia reprehenderit aut optio dolore.</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-sm-6 col-lg-4">
+                <div class="card">
+                <img src="img/SeatCupra.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-block">
+                  <h4 class="card-title">Producto 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit ametit fugit, amet officia reprehenderit aut optio dolore.</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-sm-6 col-lg-4">
+                <div class="card">
+                <img src="img/SeatCupra.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-block">
+                  <h4 class="card-title">Producto 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit ametit fugit, amet officia reprehenderit aut optio dolore.</p>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-sm-6 col-lg-4">
+                <div class="card">
+                <img src="img/SeatCupra.jpg" alt="" class="card-img-top img-fluid">
+                <div class="card-block">
+                  <h4 class="card-title">Producto 1</h4>
+                  <p class="card-text">Lorem ipsum dolor sit ametit fugit, amet officia reprehenderit aut optio dolore.</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div id="pagination-container" class="col-lg-12 d-flex justify-content-center">
+                <nav>
+                  <ul class="pagination">
+                    <li class="page-item disabled">
+                      <a href="" class="page-link">&laquo;</a>
+                    </li>
+                    <li class="page-item active"><a href="" class="page-link">1</a></li>
+                    <li class="page-item"><a href="" class="page-link">2</a></li>
+                    <li class="page-item"><a href="" class="page-link">3</a></li>
+                    <li class="page-item"><a href="" class="page-link">4</a></li>
+                    <li class="page-item"><a href="" class="page-link">5</a></li>
+                    <li class="page-item"><a href="" class="page-link">6</a></li>
+                    <li class="page-item"><a href="" class="page-link">&raquo;</a></li>
+
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- /Productos -->
+
+
+    <!-- Footer -->
+
+    <div id="footer-container">
+      <div class="container">
+        <div class="row text-xs-center text-sm-center text-md-left">
+
+          <div class="col-md-4">
+            <form id="suscribeForm" action="#" method="POST">
+              <h4 class="text-uppercase">
+                ¿Quieres recibir todas las novedades?
+              </h4>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="tu@correo.com">
+                <small class="form-text text-muted">No compartiremos tu información con nadie más</small>
+              </div>
+            </form>
+            <button id="submit" class="btn btn-primary form-text">Suscribirme</button>
+
+          </div>
+
+          <div class="col-md-3 offset-md-5">
+            <h4>Navegación</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="catalogo.html" class="nav-link">Catalogo</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Carrito</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Login</a></li>
+              <li class="nav-item"><a href="" class="nav-link">FAQ</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Contacto</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- /Footer -->
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="modalOferta">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h4 class="modaltitle">
+              Oferta Exclusiva
+            </h4>
+            <button class="close" data-dismiss="modal" type="button">&times;</button>
+
+          </div>
+
+          <div class="modal-body">
+            Registrate hoy y recibe $15 de descuento!
+
+            <form action="" class="form">
+              <div class="form-group">
+                <input type="email" class="form-control" name="name" id=emailModal placeholder="tu@corrreo.com">
+                <small class="form-text text-muted">No compartiremos tu información con nadie más.</small>
+              </div>
+            </form>
+            <button class="btn btn-platizi form-text">Registrame</button>
+            <button id="btnNoRegistrar" class="btn btn-warning form-text" data-dismiss="modal">No, noquiero el descuento</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      mostrarModal()
+    </script>
+  </body>
+</html>
