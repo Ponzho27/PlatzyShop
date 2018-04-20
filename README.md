@@ -1,0 +1,2 @@
+# PlatzyShop
+Ejercisio de Platzy
